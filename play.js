@@ -15,7 +15,7 @@ const prompt = require("prompt-sync")(); // Package to take input from the user
     A: 2,
     B: 4,
     C: 6,
-    D: 8,
+    D: 9,
 
   }
   const SYMBOLS_VALUE  = {
@@ -92,4 +92,3 @@ const getBet = (balance,numoflines) => {
 let balance=deposit();
 const numoflines=getnumber();
 const bet = getBet();
-console.log(bet);
